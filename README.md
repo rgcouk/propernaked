@@ -107,3 +107,4 @@ Ensure that you follow the list of [theme store requirements](https://shopify.de
 
 Copyright (c) 2021-present Shopify Inc. See [LICENSE](/LICENSE.md) for further details.
 # propernaked
+# propernaked

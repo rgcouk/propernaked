@@ -17,7 +17,7 @@
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
@@ -34,7 +34,7 @@
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/proper-naked-logo.png",
           "logo_width": 140,
-          "logo_position": "middle-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "show_line_separator": true,
           "enable_sticky_header": true

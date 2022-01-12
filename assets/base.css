@@ -2296,6 +2296,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
+  background:black;
 }
 
 .header--top-center .header__inline-menu,

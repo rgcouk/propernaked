@@ -11,6 +11,8 @@
     "heading_scale": 100,
     "type_body_font": "muli_n4",
     "body_scale": 110,
+    "buttons_border_thickness": 3,
+    "buttons_radius": 4,
     "badge_sold_out_color_scheme": "background-1",
     "accent_icons": "text",
     "favicon": "shopify:\/\/shop_images\/proper-naked-logo.png",

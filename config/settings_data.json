@@ -16,8 +16,8 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
+              "text": "Nothing less then 100% - Free UK Delivery on orders over £50.00",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }

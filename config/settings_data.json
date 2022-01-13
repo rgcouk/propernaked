@@ -7,8 +7,11 @@
     "colors_outline_button_labels": "#121212",
     "colors_background_1": "#FFFFFF",
     "colors_background_2": "#F3F3F3",
-    "type_header_font": "assistant_n4",
-    "type_body_font": "assistant_n4",
+    "type_header_font": "archivo_n5",
+    "heading_scale": 100,
+    "type_body_font": "muli_n4",
+    "body_scale": 110,
+    "checkout_logo_image": "shopify:\/\/shop_images\/proper-naked-logo.png",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

@@ -61,13 +61,13 @@
         "collection": {
           "type": "collection",
           "settings": {
-            "collection": "honey"
+            "collection": ""
           }
         },
         "34da8cee-7fb8-4d90-813d-f668e86660ab": {
           "type": "product",
           "settings": {
-            "product": "wine",
+            "product": "proper-honey",
             "second_image": false
           }
         }

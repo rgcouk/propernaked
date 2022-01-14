@@ -967,6 +967,10 @@ summary::-webkit-details-marker {
 }
 
 /* component-grid */
+.collection {
+  max-width:100%;
+}
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -2527,4 +2531,8 @@ details-disclosure > details {
   border-radius: 0;
   border-left: none;
   border-right: none;
+}
+
+.sidebar {
+  max-width:20%;
 }

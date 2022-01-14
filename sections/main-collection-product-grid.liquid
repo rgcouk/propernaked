@@ -31,7 +31,7 @@
       <div class="collection page-width">
                 <div class="loading-overlay gradient"></div>
 
-        <div class="grid--1-col">
+        <div class="grid--4-col grid__item">
         {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
@@ -41,7 +41,7 @@
   </div>
 {%- endif -%}
         </div>
-        <div class="grid--2--col">
+        <div class="grid--2-col grid__item">
 
         <ul id="product-grid" data-id="{{ section.id }}" class="
           grid grid--2-col product-grid

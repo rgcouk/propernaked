@@ -15,7 +15,7 @@
 
 {%- endif -%}
 
-<div id="ProductGridContainer">
+<div id="ProductGridContainer" class="grid grid--1-col grid--2-col-table">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
@@ -29,7 +29,7 @@
       </div>
     {%- else -%}
   
-        <div class="grid--4-col grid__item">
+        <div class="grid__item">
         {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
@@ -38,7 +38,7 @@
 {%- endif -%}
         </div>
   
-      <div class="collection grid grid--1-col grid--2-col-table">
+      <div class="collection grid__item">
                 <div class="loading-overlay gradient"></div>
 		
 

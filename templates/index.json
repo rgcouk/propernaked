@@ -6,8 +6,15 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "100% Pure Albanian Honey",
             "heading_size": "medium"
+          }
+        },
+        "2ba50061-9961-4306-a531-4d34fcc2b788": {
+          "type": "text",
+          "settings": {
+            "text": "Albania’s climate and vastly beautiful landscape provide ideal conditions for beekeeping. ¾ of the country is mountainous, offering an amazing wealth of forage plants and wildflowers. And since Albania has both Mediterranean and Continental regions, there is nectar all year round.",
+            "text_style": "body"
           }
         },
         "button": {
@@ -24,6 +31,7 @@
       },
       "block_order": [
         "heading",
+        "2ba50061-9961-4306-a531-4d34fcc2b788",
         "button"
       ],
       "settings": {

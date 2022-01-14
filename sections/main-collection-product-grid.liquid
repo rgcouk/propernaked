@@ -15,7 +15,7 @@
 
 {%- endif -%}
 
-<div id="ProductGridContainer">
+<div id="ProductGridContainer" class="page-width">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
@@ -29,7 +29,7 @@
       </div>
     {%- else -%}
   
-  <div class="page-width grid grid--2-col">
+  <div class="grid grid--2-col">
         <div class="grid__item sidebar">
         {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}

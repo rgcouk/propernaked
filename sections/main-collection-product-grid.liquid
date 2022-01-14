@@ -29,7 +29,7 @@
       </div>
     {%- else -%}
   
-  <div class="grid grid--2-col">
+  <div class="grid">
         <div class="grid__item sidebar">
         {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}

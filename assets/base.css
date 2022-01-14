@@ -721,10 +721,11 @@ summary {
 }
 
 summary .icon-caret {
-  position: absolute;
-  height: 0.6rem;
-  right: 1.5rem;
-  top: calc(50% - 0.2rem);
+    position: absolute;
+    height: 0.6rem;
+    right: 1.5rem;
+    top: calc(50% - 0.2rem);
+    color: white;
 }
 
 summary::-webkit-details-marker {

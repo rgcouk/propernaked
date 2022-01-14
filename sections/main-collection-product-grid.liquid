@@ -12,9 +12,7 @@
   {{ 'component-facets.css' | asset_url | stylesheet_tag }}
   <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 
-  <div class="page-width" id="main-collection-filters" data-id="{{ section.id }}">
-    {% render 'facets', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
-  </div>
+
 {%- endif -%}
 
 <div id="ProductGridContainer">
@@ -30,8 +28,11 @@
         </div>
       </div>
     {%- else -%}
-      <div class="collection page-width">
-        <div class="loading-overlay gradient"></div>
+      <div class="collection page-width grid">
+                <div class="loading-overlay gradient"></div>
+
+        <div class="grid--1-col"></div>
+        <div class="grid--2--col">
 
         <ul id="product-grid" data-id="{{ section.id }}" class="
           grid grid--2-col product-grid
@@ -50,6 +51,8 @@
             </li>
           {%- endfor -%}
         </ul>
+          
+        </div>
 
         {%- if paginate.pages > 1 -%}
           {% render 'pagination', paginate: paginate, anchor: '' %}

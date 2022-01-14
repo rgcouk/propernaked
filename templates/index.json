@@ -58,24 +58,25 @@
             "second_image": false
           }
         },
-        "collection": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "34da8cee-7fb8-4d90-813d-f668e86660ab": {
           "type": "product",
           "settings": {
-            "product": "proper-honey",
+            "product": "wine",
+            "second_image": false
+          }
+        },
+        "11d95ca3-cb60-4d31-8293-88bce176a5ef": {
+          "type": "product",
+          "settings": {
+            "product": "olive-oil",
             "second_image": false
           }
         }
       },
       "block_order": [
         "product",
-        "collection",
-        "34da8cee-7fb8-4d90-813d-f668e86660ab"
+        "34da8cee-7fb8-4d90-813d-f668e86660ab",
+        "11d95ca3-cb60-4d31-8293-88bce176a5ef"
       ],
       "settings": {
         "heading": "",

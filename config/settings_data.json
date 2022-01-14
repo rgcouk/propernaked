@@ -9,6 +9,9 @@
     "colors_background_2": "#F3F3F3",
     "type_header_font": "titillium_web_n6",
     "type_body_font": "assistant_n4",
+    "card_style": "card",
+    "card_color_scheme": "accent-1",
+    "badge_position": "bottom right",
     "badge_sale_color_scheme": "accent-2",
     "badge_sold_out_color_scheme": "background-1",
     "sections": {

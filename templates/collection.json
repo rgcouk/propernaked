@@ -19,10 +19,28 @@
         "enable_sorting": true,
         "collapse_on_larger_devices": true
       }
+    },
+    "shogun-above": {
+      "type": "shogun-above",
+      "settings": {
+      }
+    },
+    "shogun-below": {
+      "type": "shogun-below",
+      "settings": {
+      }
+    },
+    "shogun-helper": {
+      "type": "shogun-helper",
+      "settings": {
+      }
     }
   },
   "order": [
+    "shogun-helper",
+    "shogun-above",
     "banner",
-    "product-grid"
+    "product-grid",
+    "shogun-below"
   ]
 }

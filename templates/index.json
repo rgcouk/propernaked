@@ -43,18 +43,10 @@
     "collage": {
       "type": "collage",
       "blocks": {
-        "video": {
-          "type": "video",
-          "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=pDUGANgm5a8",
-            "description": "Describe the video",
-            "image_padding": true
-          }
-        },
         "product": {
           "type": "product",
           "settings": {
-            "product": "",
+            "product": "proper-honey",
             "second_image": false
           }
         },
@@ -63,15 +55,22 @@
           "settings": {
             "collection": ""
           }
+        },
+        "34da8cee-7fb8-4d90-813d-f668e86660ab": {
+          "type": "product",
+          "settings": {
+            "product": "proper-honey",
+            "second_image": false
+          }
         }
       },
       "block_order": [
-        "video",
         "product",
-        "collection"
+        "collection",
+        "34da8cee-7fb8-4d90-813d-f668e86660ab"
       ],
       "settings": {
-        "heading": "Multimedia collage",
+        "heading": "",
         "desktop_layout": "left",
         "mobile_layout": "collage",
         "padding_top": 36,

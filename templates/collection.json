@@ -7,6 +7,13 @@
         "show_collection_image": false
       }
     },
+    "filter": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -23,6 +30,7 @@
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "filter"
   ]
 }

@@ -8,14 +8,8 @@
 
 <noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
 
-{%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-  {{ 'component-facets.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
 
-
-{%- endif -%}
-
-<div id="ProductGridContainer" class="page-width">
+<div id="ProductGridContainer">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {%- if collection.products.size == 0 -%}
       <div class="collection collection--empty page-width" id="product-grid" data-id="{{ section.id }}">
@@ -28,22 +22,11 @@
         </div>
       </div>
     {%- else -%}
-                  <div class="loading-overlay gradient"></div>
+      <div class="collection page-width">
+        <div class="loading-overlay gradient"></div>
 
-  <div class="grid">
-        <div class="grid__item sidebar">
-        {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
-  {{ 'component-facets.css' | asset_url | stylesheet_tag }}
-  <script src="{{ 'facets.js' | asset_url }}" defer="defer"></script>
-
-    {% render 'facets', results: collection, enable_filtering: section.settings.enable_filtering, enable_sorting: section.settings.enable_sorting, collapse_on_larger_devices: section.settings.collapse_on_larger_devices %}
-{%- endif -%}
-        </div>
-  
-      <div class="collection grid__item page-width">
-		
-
-        <ul id="product-grid" data-id="{{ section.id }}" class="grid product-grid
+        <ul id="product-grid" data-id="{{ section.id }}" class="
+          grid grid--2-col product-grid
           {% if collection.products_count < 4 %} grid--{{ collection.products_count }}-col-tablet{% else %}
             {% if collection.products_count == 4 %} grid--4-col-desktop{% else %} grid--3-col-tablet grid--one-third-max grid--4-col-desktop grid--quarter-max{% endif %}
           {% endif %}">
@@ -59,8 +42,6 @@
             </li>
           {%- endfor -%}
         </ul>
-          
-        </div>
 
         {%- if paginate.pages > 1 -%}
           {% render 'pagination', paginate: paginate, anchor: '' %}

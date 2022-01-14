@@ -12,8 +12,15 @@
     "page_width": "1600",
     "card_style": "card",
     "card_color_scheme": "accent-1",
+    "card_border_thickness": 0,
+    "card_border_opacity": 0,
+    "card_corner_radius": 4,
+    "media_border_thickness": 0,
+    "media_radius": 4,
+    "drawer_border_thickness": 0,
     "badge_position": "bottom right",
-    "badge_sale_color_scheme": "accent-2",
+    "badge_corner_radius": 6,
+    "badge_sale_color_scheme": "accent-1",
     "badge_sold_out_color_scheme": "background-1",
     "sections": {
       "announcement-bar": {

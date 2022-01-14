@@ -60,7 +60,7 @@
         "share"
       ],
       "settings": {
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "gallery_layout": "stacked",
         "media_size": "large",
         "mobile_thumbnails": "hide",
@@ -76,8 +76,8 @@
         "heading": "You may also like",
         "image_ratio": "adapt",
         "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
+        "show_vendor": true,
+        "show_rating": true,
         "padding_top": 36,
         "padding_bottom": 36
       }

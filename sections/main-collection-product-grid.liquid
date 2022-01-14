@@ -28,7 +28,8 @@
         </div>
       </div>
     {%- else -%}
-  
+                  <div class="loading-overlay gradient"></div>
+
   <div class="grid">
         <div class="grid__item sidebar">
         {%- if section.settings.enable_filtering or section.settings.enable_sorting -%}
@@ -40,7 +41,6 @@
         </div>
   
       <div class="collection grid__item">
-                <div class="loading-overlay gradient"></div>
 		
 
         <ul id="product-grid" data-id="{{ section.id }}" class="
